@@ -1,0 +1,10 @@
+{
+  "name": "Canonical workflow for publishing Juju charms to a track",
+  "description": "Canonical workflow for publishing Juju charms. Uploads the charm and create an edge/track release in charmhub.",
+  "iconName": "juju",
+  "categories": [],
+  "filePatterns": [
+      "charmcraft.yaml$",
+      "tox.ini$"
+  ]
+}

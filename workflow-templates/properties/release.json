@@ -1,0 +1,9 @@
+{
+  "name": "Canonical workflow for promoting Juju charms",
+  "description": "Canonical workflow for promoting Juju charms. Promotes the existing charm in the original channel to the target channel.",
+  "iconName": "juju",
+  "categories": [],
+  "filePatterns": [
+      "charmcraft.yaml$"
+  ]
+}
