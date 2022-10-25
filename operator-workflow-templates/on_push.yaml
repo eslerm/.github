@@ -9,10 +9,16 @@ name: Publish to edge
 
 on:
   workflow_dispatch:
+    secrets:
+      CHARMHUB_TOKEN:
+        required: true
   push:
     branches:
       - main
       - track/**
+    secrets:
+      CHARMHUB_TOKEN:
+        required: true
 
 jobs:
   publish-to-edge:
