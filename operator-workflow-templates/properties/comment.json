@@ -1,0 +1,7 @@
+{
+  "name": "Canonical workflow for commenting on a pull request",
+  "description": "Canonical workflow for commenting on a pull request. Id triggered on `workflow_call`, it will download the artifact and post its content.",
+  "iconName": "",
+  "categories": [],
+  "filePatterns": []
+}

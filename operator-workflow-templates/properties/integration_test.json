@@ -1,0 +1,10 @@
+{
+  "name": "Canonical workflow for Juju integration tests",
+  "description": "Canonical workflow for Juju integration tests. Desploys a k8s or LXD substrate and run the `integration` tox target on top.",
+  "iconName": "juju",
+  "categories": [],
+  "filePatterns": [
+      "charmcraft.yaml$",
+      "tox.ini$"
+  ]
+}

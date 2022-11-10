@@ -1,0 +1,11 @@
+{
+  "name": "Canonical CI workflow for python",
+  "description": "Canonical CI workflow for python. Runs woke and the default tox targets and generates a report in JSON format",
+  "iconName": "python",
+  "categories": [
+      "Python"
+  ],
+  "filePatterns": [
+      "tox.ini$"
+  ]
+}
